@@ -1,0 +1,46 @@
+.root {
+  width: 320px;
+  margin-bottom: 2px;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+    svg {
+      width: 22px;
+      height: 22px;
+      margin-left: 8px;
+    }
+  }
+}
+
+.commentItem {
+  margin-bottom: 25px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    margin-right: 8px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.postTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
