@@ -1,6 +1,9 @@
 .root {
   width: 320px;
   margin-bottom: 2px;
+  position: sticky;
+  top: 80px;
+  margin-left: 40px;
 
   h3 {
     display: flex;
