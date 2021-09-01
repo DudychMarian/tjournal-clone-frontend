@@ -25,7 +25,6 @@ export const Post: React.FC = () => {
         src="https://leonardo.osnova.io/a21ca5a9-d95b-560d-9a6f-9fa87eff7fcd/-/preview/600/-/format/webp/"
         height={500}
         width={600}
-        alt="newsImage"
       />
       <PostActions />
     </Paper>

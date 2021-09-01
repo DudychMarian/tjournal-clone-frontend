@@ -27,11 +27,16 @@ export const Comment: React.FC<CommentPostProps> = ({ user, text, createdAt }) =
   return (
     <div className={styles.comment}>
       <div className={styles.userInfo}>
-        <img src={user.avatarUrl} alt="Avatar" />
+        <img
+          src={user.avatarUrl}
+          alt="Avatar"
+        />
         <b>{user.fullname}</b>
         <span>{createdAt}</span>
       </div>
-      <Typography className={styles.text}>{text}</Typography>
+      <Typography className={styles.text}>
+          {text}
+      </Typography>
       <span className={styles.replyBtn}>Ответить</span>
       <IconButton onClick={handleClick}>
         <MoreIcon />
