@@ -7,7 +7,7 @@ const instance = axios.create({
 
 export const UserApi = {
   async register(dto: CreateUserDto) {
-    const {data} = await instance.post<CreateUserDto, {data: ResponseUser}>('http://localhost:7777/auth/register', dto);
+    const {data} = await instance.post<CreateUserDto, {data: ResponseUser}>('/auth/register', dto);
     return data;
   },
   async login(dto: LoginDto) {
